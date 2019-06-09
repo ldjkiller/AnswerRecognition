@@ -7,14 +7,14 @@ import cv2
 import requests
 from requests_toolbelt import MultipartEncoder
 
-from ziyue_data_version_190103.pic_rec.db import db as question_db
-from ziyue_data_version_190103.pic_rec.db import data
-from ziyue_data_version_190103.pic_rec.pic_deal import deal3
-from ziyue_data_version_190103.pic_rec.blurDetector import BlurDetector
-from ziyue_data.pic_rec.baiduApi import bns
+from db import db as question_db
+from db import data
+from pic_deal import deal3
+from blurDetector import BlurDetector
+from baiduApi import bns
 import numpy as np
 
-A = "http://172.16.9.40:8080/http/KKL/question_builder/v1"
+A = "http://localhost:8080/rec"
 B = bns()
 
 
@@ -229,14 +229,6 @@ def to_rb_img(res):
     data_encode = np.array(res2)
     return data_encode.tostring()
 
-
-# def save_to_pic(content):
-#     name = "../data/tmp/upload_.jpg"
-#     with open("../data/tmp/upload_.jpg", "wb") as f:
-#         f.write(content)
-#     return name
-
-
 def post_info(all_files):
     # 图片答案识别接口调用
     header = {}
@@ -304,9 +296,6 @@ def start(o_pics, subject):
 
 
 if __name__ == '__main__':
-    # picc2 = "../data/pic/math_IMG_9492.JPG"
-    # picc1 = "../data/pic/eng_IMG_1362.JPG"
-    # pic1 = "../data/pic/eng_IMG1.JPG"
     pic2 = "../data/se_pic/IMG_1947.JPG"
     pic3 = "../data/se_pic/chi_IMG_1884.JPG"
     pic4 = "../data/se_pic/chi_IMG_1885.JPG"
@@ -316,18 +305,4 @@ if __name__ == '__main__':
     pic8 = "../data/se_pic/sci_IMG_1886.JPG"
     pic9 = "../data/se_pic/sci_IMG_1887.JPG"
     lis = [pic4, pic5, pic6, pic7, pic8, pic9]
-    # lis = [pic7]
-    # for apic in lis:
-    #     try:
-    # start(apic)
     start([pic3, pic4], "chi，math")
-    # except Exception as e:
-    #     print(e)
-    #     pass
-    # while True:
-    #     a_pic = "../data/pic/"+input("请填入图片名称")
-    #     try:
-    #         start(a_pic)
-    #     except Exception as e:
-    #         print(e)
-    #         pass
