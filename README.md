@@ -3,8 +3,8 @@
 
 ## 答案识别
 aa文件夹是整个答案识别的服务，到 [*这里*](https://pan.baidu.com/s/1Gafj6qaaicOnmiEWyqaTXQ) 密码：d83d  
-下载我已经训练好的模型，解压后的inference_graph文件夹放到aa文件夹下面。
-运行
+下载我已经训练好的识别模型，解压后的inference_graph文件夹放到aa文件夹下面。【关于识别模型的训练，之后会push上来】
+### 运行
 ```
 python3 my_server.py
 ```
