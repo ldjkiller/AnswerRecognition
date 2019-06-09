@@ -1,5 +1,5 @@
 # coding:utf8
-from ziyue_data.config import api_id, api_key, api_pwd
+from config import api_id, api_key, api_pwd
 from aip import AipOcr
 
 """ 如果有可选参数 """
@@ -23,7 +23,7 @@ class bns:
 
 
 if __name__ == '__main__':
-    from ziyue_data_version_190103.pic_rec.pic_deal import load_image
+    from pic_rec.pic_deal import load_image
 
     img, _, _, _ = load_image("../data/se_pic/chi_IMG_1884.JPG")
     print(img)
