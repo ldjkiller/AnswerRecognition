@@ -23,7 +23,7 @@ class bns:
 
 
 if __name__ == '__main__':
-    from pic_rec.pic_deal import load_image
+    from pic_deal import load_image
 
     img, _, _, _ = load_image("../data/se_pic/chi_IMG_1884.JPG")
     print(img)
