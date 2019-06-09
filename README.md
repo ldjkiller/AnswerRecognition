@@ -18,6 +18,6 @@ python3 my_server.py
 
 ## 效果展示
 
-<div align=center><img src="https://github.com/ldjkiller/AnswerRecognition/blob/master/result_pic/22DEF5C3-6BFC-489c-AADD-1A78F3FEA27A.png" width="350" height="650" alt="图片加载失败时，显示这段字"/></div>
+<div align=center><img src="https://github.com/ldjkiller/AnswerRecognition/blob/master/result_pic/22DEF5C3-6BFC-489c-AADD-1A78F3FEA27A.png" width="400" height="600" alt="图片加载失败时，显示这段字"/></div>
 
-<div align=center><img src="https://github.com/ldjkiller/AnswerRecognition/blob/master/result_pic/23FF8751-260F-428e-A4C0-59E01861082A.png" width="350" height="650" alt="图片加载失败时，显示这段字"/></div>
+<div align=center><img src="https://github.com/ldjkiller/AnswerRecognition/blob/master/result_pic/23FF8751-260F-428e-A4C0-59E01861082A.png" width="400" height="600" alt="图片加载失败时，显示这段字"/></div>
