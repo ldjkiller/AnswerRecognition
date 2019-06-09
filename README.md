@@ -17,6 +17,6 @@ python3 my_server.py
 提示：最好选用带gpu的机子，速度杠杠的。
 
 效果展示：
-![效果一](https://github.com/ldjkiller/AnswerRecognition/result_pic/22DEF5C3-6BFC-489c-AADD-1A78F3FEA27A.png)
-![效果二](https://github.com/ldjkiller/AnswerRecognition/result_pic/23FF8751-260F-428e-A4C0-59E01861082A.png)
+![效果一](https://github.com/ldjkiller/AnswerRecognition/blob/master/result_pic/22DEF5C3-6BFC-489c-AADD-1A78F3FEA27A.png)
+![效果二](https://github.com/ldjkiller/AnswerRecognition/blob/master/result_pic/23FF8751-260F-428e-A4C0-59E01861082A.png)
 
